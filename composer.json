@@ -1,0 +1,26 @@
+{
+    "name": "cleider87/silex-backend",
+    "description": "Backend para sítios web con Silex 2.X",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Cleider Herrera",
+            "email": "cleider87@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.2"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "App\\": "../App/",
+            "App\\Registers\\": "../App/Registers/",
+            "App\\Business\\Config\\": "../App/Business/Config/",
+            "App\\Business\\": "../App/Business/",
+            "App\\Resources\\": "../App/Resources/",
+            "App\\Services\\": "../App/Rervices/"
+        }
+    }
+}
