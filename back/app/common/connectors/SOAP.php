@@ -20,10 +20,10 @@
  */
 
 /**
- * Description of RestfulInterface
+ * Description of SOAP
  *
  * @author cleider
  */
-class RESTfulInterface {
+class SOAP {
     //put your code here
 }

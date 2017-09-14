@@ -19,11 +19,13 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
+namespace App;
+
 /**
- * Description of RestfulInterface
+ * Description of Middleware
  *
  * @author cleider
  */
-class RESTfulInterface {
+class Middleware {
     //put your code here
 }
